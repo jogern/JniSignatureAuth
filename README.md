@@ -13,7 +13,7 @@ allprojects {
 在app中的build.gradle
 
 ~~~
- implementation 'com.github.jogern:JniSignatureAuth:v1.0.1'
+ implementation 'com.github.jogern:JniSignatureAuth:v1.0.2'
 ~~~
 
 #### 二.使用
