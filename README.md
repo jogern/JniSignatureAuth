@@ -1,6 +1,6 @@
 # JniSignatureAuth
 
-####一.在rootproject的build.gradle中增加
+#### 一.在rootproject的build.gradle中增加
 
 ~~~
 allprojects {
@@ -16,7 +16,7 @@ allprojects {
  implementation 'com.github.jogern:JniSignatureAuth:v1.0.1'
 ~~~
 
-####二.使用
+#### 二.使用
 
 1.实现对字符串进行md5
 	
@@ -44,7 +44,7 @@ c.对字符串进行解密
 
 ```
 
-####三.增加混淆
+#### 三.增加混淆
 
 ~~~
 -keep class com.jogern.jniauth.** { *;}
